@@ -1,80 +1,25 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Homophily in Kids Coding
+description: How Algoritmic Interventions Influence Children's Interactions
+img: assets/img/homophily_banner.png
+importance: 5
+category: work
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+![example of homophily](/assets/img/homophily_banner.png)
+Credit image [Adamic & Glance 2005](https://dl.acm.org/doi/10.1145/1134271.1134277)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In this project I aim to investigate what evidence of homophily and heterophily we can identify when observing children's activity on an Scratch online programming platform. I specifically seek to understand how some algorithmic interventions, such as featuring remixed projects on the homepage, influence the diversity of children's interactions. I hypothesize a more diverse network could lead to an increase in platform retention and therefore to an improvement in children's programming practice.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+![measure of homophily](/assets/img/measure_homophily.png)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Working definitions:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+* __Homophily__ refers to the degree to which pairs of individuals who interact are similar with respect to certain attributes, such as beliefs, values, education, social status, etc.
+* __Heterophily__ is the degree to which pairs of individuals who interact are different with respect to certain attributes.
+* __Network diversity__ in our project is defined as multidimensional heterophily measured across the following dimensions: gender, age, language of platform users.
+* __Computational thinking__ involves three key dimensions: (1) computational concepts (i.e. events, parallelism) (2) computational practices (i.e. iterating, remixing, abstracting), and (3) computational perspectives(i.e. expressing, questioning).
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+The full paper presenting the motivation, background research and rationale for this project is available [here](/assets/pdf/WIP_Scratch_Homophily.pdf).

@@ -83,16 +83,18 @@ layout: default
               {% case data[0] %}
                 {% when 'basics' %}
                   {% include resume/basics.liquid %}
-                {% when 'education' %}
-                  {% include resume/education.liquid %}
-                {% when 'work' %}
-                  {% include resume/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include resume/projects.liquid %}
+                {% when 'qualifications_summary'%}
+                  {% include resume/qualifications_summary.liquid %}
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
+                {% when 'education' %}
+                  {% include resume/education.liquid %}
+                {% when 'research_experience' %}
+                  {% include resume/research_experience.liquid %}
+                {% when 'service' %}
+                  {% include resume/service.liquid %}
+                {% when 'projects' %}
+                  {% include resume/projects.liquid %}
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}

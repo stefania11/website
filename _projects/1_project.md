@@ -1,81 +1,30 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: TileCode
+description: App for designing, coding, and playing video games on low-cost arcade gaming handhelds.
+img: assets/img/tilecode.gif
 importance: 1
 category: work
-related_publications: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[Web app](https://microsoft.github.io/tilecode/tilecode.html)
+[GitHub](https://github.com/microsoft/tilecode)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+[Microsoft TileCode](https://www.microsoft.com/en-us/research/project/microsoft-tilecode/) is an app for designing, coding, and playing video games directly on low-cost MakeCode Arcade gaming handhelds, as well as in the web browser. With TileCode, we are using the medium of video games to explore the combination of:
+![TileCode Components](/assets/img/tilecode_components.png)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+* __Natural language__ for informally specifying games goals, rules, and mechanics;
+* __Physical computational models__ that foreground concepts such as data parallelism, pattern matching, and conflict resolution;
+* __Testing and debugging__ of programs to establish confidence in their behavior and to refine specifications;
+* __Machine learning__ to help bridge the gap between natural language and programs, as well as to generate non-player character behavior in games.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Our ultimate goal is to provide a sandbox in which students can express and refine their game ideas, while learning about computation, programming, and machine learning.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+![TileCode User Studies](/assets/img/tilecode_userstudies.png)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+During the summer of 2020, I designed and ran user studies with 15 families in North America to better understand how children talk about the behavior of video games and evaluate how their informal descriptions of video games aided them in the development of TileCode games. A Microsoft Research Webinar about our initial findings took place on November 18, 2020 and is available [here](https://note.microsoft.com/MSR-Webinar-TileCode-Registration-On-Demand.html?wt.mc_id=twitter_MSR-WBNR_post_v1).
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+[Web app](https://microsoft.github.io/tilecode/tilecode.html)
+[GitHub](https://github.com/microsoft/tilecode)

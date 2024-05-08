@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - stefania11
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - hackidemia/cognimates-vm
+  - hackidemia/cognimates-gui
+  - stefania11/ai_playground
+  - stefania11/pippisynth
+  - stefania11/HackingSmartToys
